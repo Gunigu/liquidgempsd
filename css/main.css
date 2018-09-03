@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  background-color: silver;
+}
+
+
+nav {
+ margin: 0;
+ padding: 20px;
+border: 2px solid white;
+border-spacing: 40px;
+
+}
+
+   nav li {
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    padding: 20px;
+    color: white;
+    font-family: Lucida;
+
+   }
+    
+
+main img {
+  padding-top: 10px;
+height: 5%;
+ width: 15%;
+border-radius: 20px;
+display: inline-block;
+box-sizing: 20px;
+
+  }
+
+  .left , .right {
+    display: inline-block;
+    width: 50%;
+
+  }
+
+  div h1, h2, img {
+    position: relative;
+    left: 40%;
+  }
